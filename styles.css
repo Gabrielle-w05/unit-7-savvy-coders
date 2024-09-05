@@ -1,0 +1,80 @@
+.flex-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width:768px) {
+  .column {
+    width:80%;
+
+  }
+
+
+}
+
+@media screen and (min-width:2px)  {
+  .flex-container {
+    border-color: red;
+    border-style: solid;
+    display: flex;
+  }
+
+}
+
+@media (orientation:portrait) {
+  .flex-container {
+    background-color:#ccc
+  }
+}
+@media (orientation:landscape) {
+  .flex-container {
+    background-color:#eee
+  }
+}
+
+@media screen and (min-width:2px)  {
+  .flex-container {
+    border-color: red;
+  }
+
+}
+
+
+.nav {
+  display: block;
+  justify-content: space-between;
+}
+
+
+.flex-container {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column
+  flex:row;
+}
+
+
+ul {
+  list-style-type:disc;
+  margin:5;
+  padding:20px;
+  background-color: #ccc;
+  text-decoration: darkslateblue;
+}
+
+@keyframes example {
+  0% {background-color: blue;}
+  25% {background-color: yellow;}
+  50% {background-color: red;}
+  100% {background-color: chartreuse;}
+}
+
+ul {
+  width:100px;
+  height:100px;
+  background-color: rgb(158, 157, 228);
+  animation-name: example;
+  animation-duration: 4s;
+  text-decoration: honeydew;
+
+}
